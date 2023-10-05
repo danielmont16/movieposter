@@ -1,0 +1,74 @@
+@charset "UTF-8";
+
+
+/* using the html selector to fix a background image */
+html {
+	background-image: url("../images/avatar-2-the-way-of-water.jpg");
+    background-size: cover;
+       
+}
+
+/* setting the body font */
+body{
+	font-family: 'EB Garamond', serif;
+	margin: 0 auto;
+	min-width: 768px;
+	max-width: 1024px;  
+	backdrop-filter: contrast(0.70);   
+        
+}
+
+/* setting title font */
+
+h1{
+    font-family: 'Papyrus', fantasy;
+	font-weight: 900;
+	font-size: 900%;
+	letter-spacing: .2em;
+	margin: 0% 0 auto;
+	text-align: center;
+	
+}
+
+/* setting sub-title font */
+h2{
+    font-family: 'Papyrus', fantasy;
+	font-weight: 900;
+	font-size: 250%;
+	letter-spacing: .55em;
+	margin-top: 0%;
+	text-align: center;
+}
+
+/* setting sub-title 3 font */
+h3{
+	font-family: 'Papyrus', fantasy;
+	font-weight: 900;
+	font-size: 30px;
+	margin-bottom: 0%;
+}
+
+
+#main-paragraph strong:hover{
+
+	color: aqua;
+
+}
+
+footer p{
+	color: white;
+	text-align: right;
+	
+}
+
+/* creating 3 columns to put images using class selector */
+.column {
+	float: left;
+	width: 33.33%;
+  }
+  
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+  }
